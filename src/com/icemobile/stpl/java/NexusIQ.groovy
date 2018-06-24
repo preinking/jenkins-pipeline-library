@@ -48,7 +48,7 @@ class NexusIQ implements Serializable {
 
         if (buildInfo.skipNexusIQanalysis) {
             println "WARNING: Nexus IQ analysis skipped, please visit " +
-                    "***REMOVED*** " +
+                    "===REMOVED=== " +
                     "to get onboarded!"
         } else {
             println "Perform nexus IQ scan"
